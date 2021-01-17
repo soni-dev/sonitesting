@@ -1,0 +1,26 @@
+{
+    "name": "soni/contact",
+    "description": "This package print msg",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "soni maurya",
+            "email": "soni@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Soni\\ContactEmail\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soni\\ContactEmail\\ContactServiceProvider"
+            ]
+        }
+    }
+}
